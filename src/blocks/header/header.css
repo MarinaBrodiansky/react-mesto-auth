@@ -1,0 +1,26 @@
+.header {
+    margin: 0;    
+    padding: 28px 0;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (min-width: 880px) {
+    .header {
+        margin: auto;
+        margin-top: 0;
+        /* padding: 45px 0; */
+        max-width: 880px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header {
+        max-width: 882px;
+        max-height: 74px;
+        /* padding: 45px 0; */
+    }
+}

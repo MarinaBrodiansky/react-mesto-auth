@@ -1,0 +1,9 @@
+.header__sign-out {
+    background-color: #000000;
+    border: none;
+    color: #A9A9A9;
+    height: 22px;
+    width: 56px;
+    cursor: pointer;
+    padding: 0;
+}
