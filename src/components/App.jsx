@@ -183,7 +183,9 @@ function App() {
           />
           <Route
             path="/sign-up"
-            element={<Register onRegistrationSubmit={onRegistrationSubmit} />}
+            element={
+            <Register onRegistrationSubmit={onRegistrationSubmit} />
+            }
           />
           <Route
             path="/sign-in"
