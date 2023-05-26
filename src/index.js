@@ -9,7 +9,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <BrowserRouter 
-    basename="react-mesto-auth">
+    basename="/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
