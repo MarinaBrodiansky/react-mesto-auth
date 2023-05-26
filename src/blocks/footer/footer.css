@@ -4,6 +4,7 @@
 
 @media (min-width: 1280px) {
     .footer {
-        margin: 66px 200px 60px 200px;
+        margin: 66px auto 60px auto;
+        max-width: 880px;
     }
 }
